@@ -1,0 +1,204 @@
+body{
+    background-color: #f2f2f2;
+}
+header .top{
+    width: 100%;
+    height:65px;
+    background: #FCFCFC;
+}
+header .top img{
+    width: 45px;
+    height: 45px;
+    padding: 10px 10px 10px 20px;
+}
+header .top a{
+    font-size: 18px;
+    color: #000;
+    padding: 25px 170px 10px 10px;
+    position: absolute;
+    text-decoration: none;
+    font-family: "Adobe Arabic";
+}
+
+/*login css*/
+.login img{
+    width: 1450px;
+    height: 650px;
+    position: absolute;
+}
+
+.login-square img{
+    width: 600px;
+    height: 400px;
+    padding: 150px 0px 0px 800px;
+    position: absolute;
+}
+.login-square form{
+    padding:240px 0 0 945px ;
+    position: absolute;
+}
+
+.login-square input{
+    width: 278px;
+    height: 18px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #0c0408;
+    /* text-shadow: 1px 1px 1px;*/
+    border-top: 1px solid #a2a2a2;
+    border-left: 1px solid #a2a2a2;
+    border-right: 1px solid #a2a2a2;
+    border-bottom: 1px solid #a2a2a2;
+    border-radius: 8px;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+.login-square button{
+    width: 150px;
+    min-height: 20px;
+    display: block;
+    background-color: #20B2AA;
+    opacity: 0.8;
+    border: 1px solid #20B2AA;
+    color: #ffffff;
+    padding: 9px 14px;
+    font-size: 15px;
+    line-height: normal;
+    border-radius: 8px;
+    margin-left: 70px;
+
+}
+footer{
+    background-color: #fafafa;
+    height: 40px;
+    width: 950px;
+    padding:650px 0 0 500px;
+}
+footer h2{
+    color: #1a1a1a;
+    font-size: 15px;
+}
+
+/*user-page css*/
+.left-part{
+    height:600px;
+    width: 300px;
+    background-color: #2b3946;
+}
+.left-part .word{
+    padding: 60px 0 100px 60px;
+    position:absolute;
+    text-decoration: none;
+}
+.left-part .word a {
+    line-height: 50px;
+     color: #16b398;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"STHeiti";
+    background-color: #2b3946;
+ }
+.left-part .word a:hover{
+    line-height: 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family:"STHeiti";
+}
+
+.right-top{
+    height: 80px;
+    width: 1100px;
+    margin-top:-590px;
+    margin-left: 310px;
+    background-color: white;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+}
+.right-top form{
+    padding: 20px 20px 20px 40px;
+}
+.right-top .pagesCheck a{
+    height: 20px;
+    width:100%;
+    margin-top: -40px;
+
+}
+.right-top input{
+    width: 278px;
+    height: 18px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #0c0408;
+    border-radius: 8px;
+    background-color: #ffffff;
+    opacity: 0.7;
+    border-top: 1px solid #16b398;
+    border-left: 1px solid #16b398;
+    border-right: 1px solid #16b398;
+    border-bottom: 1px solid #16b398;
+}
+.right-top button{
+    width: 60px;
+    min-height: 38px;
+    background-color: #20B2AA;
+    opacity: 0.8;
+    border: 1px solid #20B2AA;
+    color: #ffffff;
+    font-size: 13px;
+    line-height: normal;
+    border-radius: 8px;
+    margin-left: 20px;
+}
+.right-part{
+    height: 500px;
+    width:1100px;
+    margin-left: 310px;
+    margin-top: 10px;
+    position: relative;
+    background-color: white;
+    border-top: 1px solid #e4e4e4;
+    border-left: 1px solid #e4e4e4;
+    border-right: 1px solid #e4e4e4;
+    border-bottom: 1px solid #e4e4e4;
+    cursor: pointer;
+}
+.right-part:hover{
+    color: #cccccc;
+}
+.right-part .content{
+    background-color: #2b3946;
+    color: white;
+    height: 50px;
+    text-align: center;
+}
+.right-part .content-gray{
+    background-color: #cccccc;
+    color: #000;
+    height: 50px;
+    text-align:center;
+    font-size: 15px;
+}
+.right-part .content-white{
+    background-color: white;
+    color: #000;
+    height: 50px;
+    text-align:center;
+    font-size: 15px;
+}
+.foot{
+    background-color: white;
+    height: 40px;
+    padding:10px 0 0 500px;
+}
+.foot h2{
+    color: #1a1a1a;
+    font-size: 15px;
+}
+
